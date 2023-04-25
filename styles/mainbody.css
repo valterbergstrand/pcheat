@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body#main {
+  background-image: radial-gradient(circle,#efe5d5, #ebd5b3);
+}

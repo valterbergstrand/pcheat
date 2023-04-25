@@ -1,0 +1,21 @@
+
+/* ------ Content Columns ----- */
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainchild {
+  flex: 8;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .column-side, .column-middle, .column-side {
+    flex: 100%;
+  }
+}
+
+
