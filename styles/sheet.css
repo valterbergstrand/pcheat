@@ -4,9 +4,8 @@
     height: 100%;
     gap: 10px;
     margin: auto;
-    background-color: blue;
     justify-content: space-evenly;
-    background-image: radial-gradient(circle,#efe5d5, #9b8869);
+    background: radial-gradient(circle, rgba(255,255,255,0.4),rgba(0,0,0,0.2)), url("../items/parchment1.jpg");
 }
 
 .box {
