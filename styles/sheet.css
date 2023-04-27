@@ -1,0 +1,20 @@
+.sheet {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    gap: 10px;
+    margin: auto;
+    background-color: blue;
+    justify-content: space-evenly;
+    background-image: radial-gradient(circle,#efe5d5, #9b8869);
+}
+
+.box {
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: wavy;
+    height: calc(40px * 1.412);
+    background-color: aliceblue;
+}
